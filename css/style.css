@@ -1,0 +1,90 @@
+.nav-pills > a {
+	color: black;
+}
+
+.nav-pills .nav-link.active > a, .nav-pills .show>.nav-link {
+    color: white;
+	/*background-color: darkblue;*/
+	/* padding-left: 20px; */
+	/* padding-right: 20px; */
+}
+
+.container-fluid {
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 24pt;
+}
+
+@media  only screen and (min-width: 992px) {
+	.container-fluid {
+		padding-left: 100px;
+		padding-right: 100px;
+		font-size: 18px;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+    	padding-right: .75rem;
+    	padding-left: .75rem;
+	}
+	.blockquote {
+    	/*margin-bottom: 1rem;*/
+    	font-size: 1rem;
+	}
+}
+
+body {
+	/*padding-top: 270px;*/
+}
+
+footer {
+	text-align: center;
+	color: lightgrey;
+}
+
+@media only screen and (max-width: 992px) {
+	.blockquote {
+    	/*margin-bottom: 1rem;*/
+    	font-size: 2rem;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link {
+    	font-size: 3rem;
+	}
+	h2 {
+		font-size: 4rem;
+	}
+	.caption {
+		font-size: 2rem;
+	}
+
+}
+
+.card .img-thumbnail {
+	height: 100%;
+}
+
+.card .img-thumbnail > img {
+	width: 100%;
+}
+
+.caption {
+	text-align: center; 
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: #007bff;
+}
+
+.custom-header {
+	color: black;
+}
+
+img.logo_nitk {
+	display: block;
+	margin: auto;
+	/*padding-top:20px; */
+	width: 110px;
+	height: 110px;
+}
